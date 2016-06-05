@@ -1,0 +1,5 @@
+suites:
+    main:
+        namespace: somosAula
+        psr4_prefix: somosAula
+        src_path: app
