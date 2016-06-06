@@ -46,6 +46,10 @@ footer {
     color: orange;
     border-color: orange;
 }
+/*Custom img app*/
+.imgapp{
+    margin-left: -15px;
+}
 #RegistProfe {
     color: white;
     background-color: orange;
@@ -330,6 +334,9 @@ footer {
 }
 .card .card-action a:hover {
     color: #ffd8a6;
+}
+.media{
+    line-height: 1.5em;
 }
 
 @media (max-width: 992px) {

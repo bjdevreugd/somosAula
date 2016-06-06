@@ -8,7 +8,7 @@ class tarea extends Model
 {
     /**
      * The database table used by the model.
-     *
+     *master
      * @var string
      */
     protected $table = 'tarea';

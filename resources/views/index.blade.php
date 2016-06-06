@@ -49,7 +49,7 @@
                 <div u="slides" style="cursor: move; position: absolute; left: 0px; top: 0px; width: 1300px;
             height: 500px; overflow: hidden;">
                     <div>
-                        <img u="image" src="images/slides/panel-alumno.png"/>
+                        <img u="image" src="images/slides/slide2.jpg"/>
 
                         <div style="position: absolute; width: 480px; height: 120px; top: 30px; left: 30px; padding: 5px;
                     text-align: left; line-height: 60px; text-transform: uppercase; font-size: 50px;
@@ -61,27 +61,25 @@
                         </div>
                     </div>
                     <div>
-                        <img u="image" src="images/slides/2.jpg"/>
+                        <img u="image" src="images/slides/aula1.jpg"/>
                         <div style="position: absolute; width: 480px; height: 120px; top: 30px; left: 30px; padding: 5px;
                     text-align: left; line-height: 60px; text-transform: uppercase; font-size: 50px;
-                        color: #FFFFFF;">Touch Swipe Slider
+                        color: #FFFFFF;">
                         </div>
                         <div style="position: absolute; width: 480px; height: 120px; top: 300px; left: 30px; padding: 5px;
                     text-align: left; line-height: 36px; font-size: 30px;
                         color: #FFFFFF;">
-                            Build your slider with anything, includes image, content, text, html, photo, picture
                         </div>
                     </div>
                     <div>
-                        <img u="image" src="images/slides/3.jpg"/>
+                        <img u="image" src="images/slides/aula2.png"/>
                         <div style="position: absolute; width: 480px; height: 120px; top: 30px; left: 30px; padding: 5px;
                     text-align: left; line-height: 60px; text-transform: uppercase; font-size: 50px;
-                        color: #FFFFFF;">Touch Swipe Slider
+                        color: #FFFFFF;">
                         </div>
                         <div style="position: absolute; width: 480px; height: 120px; top: 300px; left: 30px; padding: 5px;
                     text-align: left; line-height: 36px; font-size: 30px;
                         color: #FFFFFF;">
-                            Build your slider with anything, includes image, content, text, html, photo, picture
                         </div>
                     </div>
                 </div>
@@ -168,7 +166,8 @@
                         <h1>¿Eres Profesor?</h1>
                         <hr/>
                         <div class="media">
-                            <span>In time of ancient gods, warlords and kings, a land in turmoil cried out for a hero. She was Xena, a mighty princess forged in the heat of battle. The power. The passion. The danger. Her courage will change the world. Well we're movin' on up, to the east side. To a deluxe apartment in the sky. Movin' on up, To the east side.  </span>
+                            <span>Eres profesor y quieres gestionar las faltas, calificaciones, excursiones, tareas, etc, mediante una aplicación
+                            y que al mismo tiempo puedan verlo tus alumnos y sus padres fuera del aula? No esperes más.</span>
                             <a class="btn btn-primary btn-lg RegistPadreAlum" data-toggle="modal"
                                data-target="#regprofe"
                                href="#entra" role="button" id="login">Crea tu cuenta</a>
@@ -182,7 +181,8 @@
                         <h1>¿Eres Alumno?</h1>
                         <hr/>
                         <div class="media">
-                            <span>In time of ancient gods, warlords and kings, a land in turmoil cried out for a hero. She was Xena, a mighty princess forged in the heat of battle. The power. The passion. The danger. Her courage will change the world. Well we're movin' on up, to the east side. To a deluxe apartment in the sky. Movin' on up, To the east side.  </span>
+                            <span>Eres alumno de primaria o secundaria y tu profesor te ha dado un código para
+                                visualizar tus notas, tareas, excursiones, calificaciones fuera del aula? No espere más.</span>
                             <a class="btn btn-primary btn-lg RegistPadreAlum" data-toggle="modal" data-target="#regalum"
                                href="#entra" role="button">Crea tu cuenta</a>
                         </div>
@@ -193,7 +193,7 @@
                         <h1>¿Eres Padre?</h1>
                         <hr/>
                         <div class="media">
-                            <span>In time of ancient gods, warlords and kings, a land in turmoil cried out for a hero. She was Xena, a mighty princess forged in the heat of battle. The power. The passion. The danger. Her courage will change the world. Well we're movin' on up, to the east side. To a deluxe apartment in the sky. Movin' on up, To the east side.  </span>
+                            <span>Eres padre o tutor legal y tienes un hijo utilizando esta aplicación? Registrese gratis y vea las tareas, calificaciones, excursiones e incluso faltas de asistencia de su hijo, no espere más. </span>
                             <a class="btn btn-primary btn-lg RegistPadreAlum" href="#entra" role="button"
                                data-toggle="modal" data-target="#regtutor">Crea tu cuenta</a>
                         </div>
@@ -201,4 +201,5 @@
                 </div>
             </div>
         </div>
+    <br/>
 @endsection

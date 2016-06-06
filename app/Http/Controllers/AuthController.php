@@ -225,7 +225,7 @@ class AuthController extends Controller
             return redirect('/')
                 ->withErrors($validator)
                 ->withInput()
-                ->with('error', '');
+                ->with('error', 'Email o password no validos');
         }
     }
 

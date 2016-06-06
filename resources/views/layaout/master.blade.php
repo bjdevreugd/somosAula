@@ -50,10 +50,10 @@
                 <b id="tagline"><img src="/images/lineavertical.png"> Sigue más allá del Aula</b>
                 <div id="main-nav" class="collapse navbar-collapse">
                     <ul class="nav navbar-nav" id="mainNav">
-                        <li><a href="{{url('/inicio')}}">inicio</a></li>
-                        <li><a href="{{url('/')}}">nuestro servicio</a></li>
-                        <li><a href="{{url('/inicio')}}">¿quienes somos?</a></li>
-                        <li><a href="{{url('/contact')}}">contacta</a></li>
+                        <li><a href="{{url('/inicio')}}">Inicio</a></li>
+                        <li><a href="{{url('/NuestroServicio')}}">Nuestro servicio</a></li>
+                        <li><a href="{{url('/QuienesSomos')}}">¿Quienes somos?</a></li>
+                        <li><a href="{{url('/contact')}}">Contacto</a></li>
                         @if(!\Auth::check())
 
                             <li>
