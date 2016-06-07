@@ -29,7 +29,7 @@ $cursos = somosAula\curso::all();
 $grados_educativos = somosAula\grado_educativo::all();
 
 ?>
-
+<h1 class="col-lg-offset-5">Calificaciones</h1>
 
 @if($the_rol[0]['tipo'] == 'profesor')
     <table data-toggle="table" data-show-toggle="true" data-show-columns="true" data-search="true"

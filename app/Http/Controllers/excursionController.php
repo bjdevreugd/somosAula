@@ -42,7 +42,7 @@ class excursionController extends Controller
             return redirect("user")
                 ->withErrors($validator)
                 ->withInput()
-                ->with("error", "Error al agregar Excursion");;
+                ->with("error", "Error al agregar Excursion");
         } else {
 
             $excursion = new excursion;
@@ -92,7 +92,7 @@ class excursionController extends Controller
             return redirect("user")
                 ->withErrors($validator)
                 ->withInput()
-                ->with("error", "Error al asignar excursion");;
+                ->with("error", "Error al asignar excursion");
         } else {
             $asignexcur = new user_excursion;
             $asignexcur->user_rol_id = $request->alumno;

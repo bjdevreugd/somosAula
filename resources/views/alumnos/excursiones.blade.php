@@ -12,6 +12,7 @@ $excursiones = somosAula\user_excursion::select()
         ->where('colegio.cod_aula', '=', $cod_aula_profe[0]['cod_aula'])->get();
 
 ?>
+<h1 class="col-lg-offset-5">Excursiones</h1>
 @if($the_rol[0]['tipo'] == 'profesor')
 <table data-toggle="table" data-show-toggle="true" data-show-columns="true" data-search="true" data-pagination="true">
     <thead>

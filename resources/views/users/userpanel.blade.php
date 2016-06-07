@@ -64,8 +64,8 @@
 
                                     <li class="nav-item">
                                         <a href="{{url('user')}}">
-                                            <i class="glyphicon glyphicon-home"></i>
-                                            Inicio </a>
+                                            <i class="fa fa-columns"></i>
+                                            Panel de control </a>
                                     </li>
 
                                     <li class="active"><a data-toggle="tab" href="#updatedatos">

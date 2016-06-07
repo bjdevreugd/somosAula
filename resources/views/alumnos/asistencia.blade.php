@@ -29,6 +29,7 @@ $usuarios = somosAula\datosPersonales::select()
     $(".form_datetime").datetimepicker({format: 'yyyy-mm-dd hh:ii:ss', autoclose: true});
 
 </script>
+<h1 class="col-lg-offset-5">Asistencia</h1>
 @if($the_rol[0]['tipo'] == 'profesor')
     <table data-toggle="table" data-show-toggle="true" data-show-columns="true" data-search="true"
            data-pagination="true">

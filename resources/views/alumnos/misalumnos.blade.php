@@ -7,7 +7,7 @@ $misalumnos = somosAula\User::select()
         ->where('colegio.cod_aula', '=', $colegio[0]['cod_aula'])
         ->where('rol.tipo', '<>', 'profesor')->get();
 ?>
-
+<h1 class="col-lg-offset-5">Mis alumnos</h1>
     <table data-toggle="table" data-show-toggle="true" data-show-columns="true" data-search="true" data-pagination="true">
         <thead>
         <tr>
